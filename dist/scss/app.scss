@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@mixin clearFix() {
+    &:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
+@mixin line($line: 1) {
+    @if ($line: 1) {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    @else {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: $line;
+        -webkit-box-orient: vertical;
+      
+    }
+}
+
+@import "./reset.scss";
+@import "./index.scss";

@@ -1,0 +1,98 @@
+* {
+  -webkit-text-size-adjust: none;
+}
+
+html, body, div, header, footer, article, section, aside, nav, figure, figcaption, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, details, summary, span, a, img, em, i, table, caption, thead, tbody, tr, th, td, form, fieldset, legend, label, input, button, iframe, video {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1;
+}
+
+a,
+a:link,
+a:visited,
+a:active,
+a:hover {
+  text-decoration: none;
+}
+
+em, i, address {
+  font-style: normal;
+}
+
+ol,
+ul,
+dl {
+  list-style: none;
+}
+
+img,
+fieldset,
+iframe {
+  border: none;
+}
+
+legend, caption {
+  display: none;
+}
+
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  vertical-align: middle;
+}
+input::-ms-clear {
+  display: none;
+}
+
+input[type=text],
+input[type=password],
+input[type=time],
+input[type=date],
+input[type=email],
+input[type=tel],
+input[type=number],
+input[type=search] {
+  -webkit-appearance: none;
+}
+
+button,
+input[type=button],
+input[type=submit],
+input[type=reset],
+input[type=file] {
+  -webkit-appearance: button;
+  border-radius: 0;
+}
+
+select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+textarea {
+  -webkit-appearance: none;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: translate3d(0, -50%, 0);
+          transform: translate3d(0, -50%, 0);
+  -webkit-transition: all 0.35s;
+  -o-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+/*# sourceMappingURL=main.css.map*/

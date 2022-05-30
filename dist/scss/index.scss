@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+div {
+    display: flex;
+    transform: translate3d(0, -50%, 0);
+    transition: all 0.35s;
+}
